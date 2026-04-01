@@ -20,7 +20,7 @@ export const InfoSection = () => {
 			<FloatingButton
 				label='About Me'
 				className='first'
-				href='/#about-me'
+				href='#about-me'
 			/>
 			<p>Hi, I am</p>
 			<TextHover
@@ -31,7 +31,7 @@ export const InfoSection = () => {
 			<FloatingButton
 				label='Tech'
 				className='sec'
-				href='/#tech-stack'
+				href='#tech-stack'
 			/>
 
 			<div className='blur'></div>
