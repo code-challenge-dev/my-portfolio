@@ -9,7 +9,8 @@
 		"lint": "eslint . --fix --report-unused-disable-directives && pnpm format && pnpm spellcheck",
 		"preview": "vite preview",
 		"spellcheck": "cspell . --quiet",
-		"format": "prettier --write --log-level silent ."
+		"format": "prettier --write --log-level silent .",
+		"deploy": "gh-pages -d dist"
 	},
 	"dependencies": {
 		"react": "^19.0.0",
@@ -30,6 +31,7 @@
 		"eslint-plugin-react-hooks": "^5.2.0",
 		"eslint-plugin-react-refresh": "^0.4.19",
 		"eslint-plugin-unused-imports": "^4.1.4",
+		"gh-pages": "^6.3.0",
 		"globals": "^15.15.0",
 		"prettier": "^3.5.3",
 		"typescript": "~5.7.2",
