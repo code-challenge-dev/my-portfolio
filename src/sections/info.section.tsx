@@ -1,4 +1,4 @@
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaPhone } from 'react-icons/fa';
 import { IoMailOutline } from 'react-icons/io5';
 
 import { FloatingButton } from '../components/floating-button';
@@ -34,7 +34,13 @@ export const InfoSection = () => {
 					aria-label='github'
 				/>
 				<GlowLink
-					href='mailto:alexandralexin12@gmail.com'
+					href='tel:+131633416710'
+					color='rgba(255, 255, 255, 0.4)'
+					icon={<FaPhone color='rgba(255, 255, 255,0.9)' />}
+					aria-label='phone'
+				/>
+				<GlowLink
+					href='mailto:reneejoezhang317@outlook.com'
 					icon={<IoMailOutline color='rgb(18, 122, 209)' />}
 					color=' rgb(18, 122, 209,0.7)'
 					aria-label='mail'
