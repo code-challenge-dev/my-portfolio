@@ -133,7 +133,7 @@ export const AboutMe = () => {
 			<div>
 				<div className='intro'>
 					<p style={{ marginTop: '20px' }}>
-						👋 Hey, I'm Alexandr Alexin, a Full Stack Developer.
+						👋 Hey, I'm Alexandr Alexin, a Senior Software Engineer.
 					</p>
 					<p>
 						I've been working with <strong>React</strong> and{' '}
