@@ -34,7 +34,7 @@ export const InfoSection = () => {
 					aria-label='github'
 				/>
 				<GlowLink
-					href='tel:+131633416710'
+					href='tel:+31633416710'
 					color='rgba(255, 255, 255, 0.4)'
 					icon={<FaPhone color='rgba(255, 255, 255,0.9)' />}
 					aria-label='phone'
