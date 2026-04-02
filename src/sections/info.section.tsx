@@ -18,7 +18,7 @@ export const InfoSection = () => {
 				text='Alexandr'
 				className='name'
 			/>
-			<p>Full Stack Developer</p>
+			<p>Senior Software Engineer</p>
 			<FloatingButton
 				label='Tech'
 				className='sec'
